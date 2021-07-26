@@ -1,0 +1,120 @@
+/* @desc 对公共组件(iviewui) 部分样式进行重置
+ */
+
+@import "~view-design/src/styles/index.less";
+@import "./variable.less";
+body {
+    // form
+    .ivu-form .ivu-form-item-label {
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+        padding-right: 8px;
+        padding-bottom: 0;
+        min-height: 36px;
+        font-size: 14px;
+        text-align: left;
+        color: @tag-color;
+    }
+    .ivu-btn-text:focus {
+        box-shadow: none;
+    }
+    .ivu-form-item {
+        // 如果form-item是非必填项，缩小下边距
+        &:not(.ivu-form-item-required) {
+            margin-bottom: 8px;
+        }
+        .ivu-tooltip-rel {
+            font-size: 16px;
+        }
+        .ivu-tooltip-inner {
+            line-height: 1.5;
+            &-with-width {
+                white-space: nowrap;
+            }
+            img {
+                width: 260px;
+                height: auto;
+            }
+        }
+        .ivu-form-item-content {
+            .ivu-icon.labelTip {
+                position: absolute;
+                top: 0;
+                height: 36px;
+                left: -26px;
+                line-height: 36px;
+                font-size: 22px;
+                color: #00f;
+                z-index: 11;
+            }
+        }
+    }
+    .ivu-form-item-error-tip {
+        padding-top: 4px;
+        text-indent: 14px;
+    }
+    .ivu-checkbox-border {
+        display: inline;
+    }
+    // other
+    .ivu-table {
+        thead th,.ivu-table-cell {
+            text-align: center;
+        }
+        thead th.ivu-table-column-left, th.ivu-table-column-left, td.ivu-table-column-left {
+            text-align: left;
+        }
+    }
+    .ivu-back-top {
+        bottom: 48px!important;
+        z-index: 201;
+    }
+    .ivu-tag.large {
+        line-height: 32px;
+        height: 32px;
+        padding: 0 16px;
+        font-size: 13px;
+    }
+    .ivu-picker-panel-shortcut {
+        padding: 8px 20px;
+    }
+    .ivu-select-dropdown {
+        max-height: 230px;
+    }
+    .ivu-input-number, .ivu-input, .fg-ivu-logicinput-single-input, .ivu-date-picker {
+        width: 100%;
+    }
+    .fg-ivu-form-item.radio-text .ivu-radio-wrapper {
+        font-size: 12px;
+        border: none;
+        border-radius: 4px;
+        color: @text-color;
+        &.ivu-radio-wrapper-checked {
+            color: @primary-color;
+        }
+        &:hover {
+            color: @sel-color;
+        }
+        &::before, &:after {
+            display: none;
+        }
+        &.ivu-radio-wrapper-checked {
+            border: none;
+            color: @sel-color;
+            box-shadow: none;
+        }
+    }
+    .ivu-radio-group-button .ivu-radio-wrapper {
+        color: @tag-color;
+        &.ivu-radio-wrapper-checked {
+            color: @primary-color;
+        }
+    }
+    .ivu-table::before {
+        display: none;
+    }
+    .ivu-table-header thead tr th {
+        padding: 12px 0;
+    }
+}

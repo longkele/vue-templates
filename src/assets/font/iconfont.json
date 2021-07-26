@@ -1,0 +1,79 @@
+{
+  "id": "1738497",
+  "name": "eop-mis",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13959758",
+      "name": "安全(1)",
+      "font_class": "anti",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1365374",
+      "name": "任务",
+      "font_class": "renwu",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "1176859",
+      "name": "chart-line",
+      "font_class": "chart-line",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "1704653",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "1718538",
+      "name": "load-d",
+      "font_class": "loading",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "5466021",
+      "name": "clock",
+      "font_class": "clock",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "13920702",
+      "name": "data",
+      "font_class": "data",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13920703",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "13920704",
+      "name": "gift",
+      "font_class": "gift",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "13920705",
+      "name": "flag",
+      "font_class": "flag",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

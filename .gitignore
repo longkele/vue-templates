@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+
+# iconfont
+assets/font/iconfont.html
+assets/font/iconfont.js
+assets/font/demo.css
+assets/font/iconfont.css
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ins.log
+.pnpm-debug.log
+package-lock.json
+pnpm-lock.yaml
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+dist/
+output/

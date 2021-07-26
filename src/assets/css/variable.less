@@ -1,0 +1,98 @@
+/**
+ * @file 全局变量类库：定义变量、函数
+ */
+
+// variable: 自定义iview基础配置，可以覆盖iview的默认变量（https://github.com/view-design/ViewUI/blob/master/src/styles/custom.less）
+@text-color            : #000000;
+@primary-color         : #7178FF;
+@error-color           : #F5222D;
+@input-height-base     : 36px;
+
+@btn-padding-base      : 6.1px 40px;
+@btn-padding-large     : 8px 40px;
+@btn-font-size         : 14px;
+@btn-font-size-large   : 16px;
+
+@btn-default-color     : @primary-color;
+@btn-default-border    : @primary-color;
+
+@table-thead-bg        : #EAF5FF;
+
+@menu-dark-title              : #283593;
+@menu-dark-active-bg          : @menu-dark-title;
+@menu-dark-subsidiary-color   : rgba(255,255,255,.7);
+@menu-dark-group-title-color  : rgba(255,255,255,.36);
+
+@border-color-base     : #dcdee2;
+@border-color-split     : #e8eaec;
+
+// variable: other
+@border        : 1px solid #eee;
+@marginlr      : 50px;
+
+@border-color  : #fff;
+@sel-color     : #3A3ED5;
+@c-back-color  : #fae6e4;
+@bg-color      : #F5FAFF;
+@tag-color     : #999999;
+@pop-color     : #2db7f5;
+
+// function: font-size
+.fontsize-head() {
+    font-size: 22px;
+    font-weight: 600;
+}
+.fontsize-title() {
+    font-size: 18px;
+}
+.fontsize-desc() {
+    font-size: 14px;
+}
+.fontsize-tab() {
+    font-size: 12px;
+}
+
+// function: other
+.background-base() {
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.flex() {
+    display: flex;
+    flex-direction: row;
+}
+.flex-center() {
+    .flex();
+    justify-content: center;
+}
+.flex-middle() {
+    .flex();
+    align-items: center;
+}
+.flex-cm() {
+    .flex-center();
+    .flex-middle();
+}
+.flex1() {
+    flex: 1;
+}
+.ellipsis() {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lineclamp2() {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+}
+.lineclamp3() {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+}
